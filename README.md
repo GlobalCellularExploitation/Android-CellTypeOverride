@@ -6,7 +6,7 @@ Simulates different aspects of a cellular environment. System-wide override of t
 Description
 -----------
 
-This tools simulates different aspects of a cellular environment by effectively overriding the Network and Phone type for all Android applications on a device. The tool hooks specific methods that system applications may use to determine the network and phone type.
+This tool simulates different aspects of a cellular environment by effectively overriding the Network and Phone type for all Android applications on a device. The tool hooks specific methods that system applications may use to determine the network and phone type.
 
 The tool can be used to make an application believes the phone is using a GSM/LTE/CDMA network when it has no SIM card and is only connected over Wifi, for example. This can tremendously help testing cellular specific code.
 
